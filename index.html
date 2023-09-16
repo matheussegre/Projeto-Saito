@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste</title>
 
-
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/main.css">
@@ -72,7 +74,7 @@
       <div class="container">
         <div class="left">
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-            <button class="btn-primary">Cadastre-se</button>
+            <button class="btn-primary js-cad">Cadastre-se</button>
           </div>
         </div>
         <div class="area-image">
@@ -86,10 +88,41 @@
         <div class="top">
             <h1>Dê uma olhada em alguns de nossos produtos!</h1>
         </div>
-      </div>
-      <div class="img-produtos">
-
-      </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-foto">
+                <img src="img/image-post.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-foto">
+                <img src="img/image-post.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-foto">
+                <img src="img/image-post.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-foto">
+                <img src="img/image-post.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-foto">
+                <img src="img/image-post.svg" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-foto">
+                <img src="img/image-post.svg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
     </div>
 
@@ -146,6 +179,19 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
     <!-- <script>
       var swiper = new Swiper(".slide-depoimentos", {
         slidesPerView: 5,

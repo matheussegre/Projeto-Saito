@@ -21,6 +21,7 @@
                 right: 10px;
                 max-width: 50px;
                 font-size: 2rem;
+                cursor: pointer;
             }
             form{
                 display: flex;
@@ -44,6 +45,9 @@
                 .cadastro{
                     margin-bottom: 2rem;
                     font-size: 1.4rem;
+                    strong{
+                        cursor: pointer;
+                    }
                 }
                 button{
                     height: 35px;
@@ -76,7 +80,7 @@
         position: fixed;
         background-color: white;
         top: 88px;
-        left: 475px;
+        left: 640px;
         z-index: 2023;
         width: 50rem;
         height: 40rem;
@@ -91,6 +95,7 @@
                 right: 10px;
                 max-width: 50px;
                 font-size: 2rem;
+                cursor: pointer;
             }
             form{
                 display: flex;

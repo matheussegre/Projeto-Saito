@@ -1,4 +1,20 @@
 @charset "UTF-8";
+.swiper-wrapper {
+  display: flex;
+}
+
+.card-foto {
+  width: 100%;
+  max-width: 50rem;
+  height: 20.9rem;
+  background-color: rgba(246, 244, 255, 0.877);
+  border-radius: 8px;
+  padding: 3.7rem 3.2rem 2.3rem 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn-primary {
   display: inline-block;
   background-color: white;
@@ -32,6 +48,7 @@
   right: 10px;
   max-width: 50px;
   font-size: 2rem;
+  cursor: pointer;
 }
 .s-login .content-login .menu form {
   display: flex;
@@ -56,6 +73,9 @@
 .s-login .content-login .menu form .cadastro {
   margin-bottom: 2rem;
   font-size: 1.4rem;
+}
+.s-login .content-login .menu form .cadastro strong {
+  cursor: pointer;
 }
 .s-login .content-login .menu form button {
   height: 35px;
@@ -85,7 +105,7 @@
   position: fixed;
   background-color: white;
   top: 88px;
-  left: 475px;
+  left: 640px;
   z-index: 2023;
   width: 50rem;
   height: 40rem;
@@ -102,6 +122,7 @@
   right: 10px;
   max-width: 50px;
   font-size: 2rem;
+  cursor: pointer;
 }
 .s-cadastro .content-cadastro .menu form {
   display: flex;
@@ -173,6 +194,7 @@ header .right {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  cursor: pointer;
 }
 
 .s-hero {
@@ -233,13 +255,6 @@ header .right {
 .s-products .top h1 {
   font-size: 4rem;
   color: white;
-}
-.s-products .img-produtos {
-  background-color: rgb(241, 241, 241);
-  width: 100%;
-  max-width: 130rem;
-  height: 50rem;
-  margin-bottom: 5rem;
 }
 
 footer {
