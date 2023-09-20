@@ -21,14 +21,14 @@
         <div class="close js-close">
           <span>X</span>
         </div>
-        <form action="">
+        <form>
           <h1>Faça seu login:</h1>
-          <input autocomplete="" autofocus="" class="login-email" data-test="username" name="login" placeholder="Digite seu email" required="" type="email">
-          <input class="login-pass" type="password" name="password" maxlength="20" placeholder="Digite sua senha" required="true" data-test="password">
+          <input id="inputEmailLogin" autocomplete="" autofocus="" class="login-email" data-test="username" name="login" placeholder="Digite seu email" required="" type="email">
+          <input id="inputSenhaLogin" class="login-pass" type="password" name="password" maxlength="20" placeholder="Digite sua senha" required="true" data-test="password">
           <div class="cadastro">
             <span>Não tem uma conta? Cadastre-se <strong id="js-btn-cad">AQUI!</strong></span>
           </div>
-          <button>ENTRAR</button>
+          <button id="buttonLogin">ENTRAR</button>
         </form>
       </div>
     </div>
@@ -41,13 +41,13 @@
         <div class="close js-close-cad">
           <span>X</span>
         </div>
-        <form action="">
+        <form>
           <h1>Preencha os campos abaixo:</h1>
-          <input autocomplete="" autofocus="" class="cad" data-test="username" name="login" placeholder="Digite seu nome" required="" type="text" maxlength="30">
-          <input autocomplete="" class="cad" data-test="username" name="login" placeholder="Digite seu email" required="" type="email">
-          <input class="cad" type="password" name="password" maxlength="20" placeholder="Digite sua senha" required="true" data-test="password">
+          <input id ="inputNomeCadastro" autocomplete="" autofocus="" class="cad" data-test="username" name="login" placeholder="Digite um nome de usuário" required="" type="text" maxlength="30">
+          <input id="inputEmailCadastro" autocomplete="" class="cad" data-test="username" name="login" placeholder="Digite seu email" required="" type="email">
+          <input id="inputSenhaCadastro" class="cad" type="password" name="password" maxlength="20" placeholder="Digite sua senha" required="true" data-test="password">
           <input autocomplete=""  class="cad" data-test="username" name="login" placeholder="Digite seu endereço" required="" type="text" maxlength="30">
-          <button>CADASTRAR</button>
+          <button id="buttonCadastro">CADASTRAR</button>
         </form>
       </div>
     </div>
